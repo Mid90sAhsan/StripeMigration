@@ -23,10 +23,14 @@ It safely re-creates subscriptions on the new account and cancels the original o
 ## ⚙️ Requirements
 
 - PHP 7.4+
-- Composer
+- [Composer](https://getcomposer.org)
 - Stripe PHP SDK
 
-Install dependencies:
+---
+
+## 📦 Stripe PHP SDK Installation
+
+Before running the script, you must install the Stripe PHP library:
 
 ```bash
-composer install
+composer require stripe/stripe-php
